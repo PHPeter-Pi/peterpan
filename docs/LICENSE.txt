@@ -2,6 +2,12 @@ MDwiki is licensed under the terms of the GNU GPLv3 with additional terms and
 linking exceptions. The GPLv3 license text can be found in the GPLv3.txt file, the
 additional terms are given below this paragraph.
 
+Image exceptions
+----------------
+
+The Logo image in "favicon_144x144.png" is NOT under GNU license.
+It has it's own copyright. Replace it to your own image in use.
+
 Linking exceptions
 ------------------
 

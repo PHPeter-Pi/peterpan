@@ -1,4 +1,4 @@
-# Peter pan 戸塚
+# Peter pan（ピーターパン）@ 戸塚
 
 [Home](index.md)
 [Food](https://tabelog.com/kanagawa/A1401/A140305/14017092/dtlmenu/)
