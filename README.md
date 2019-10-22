@@ -22,11 +22,11 @@ Markdown で店舗案内やメニューの更新ができるサンプルです�
 
 ### 変更が必要なファイル
 
-- `index.html`: `<title>` タグの店舗名
-- `index.md`: Markdown 形式で自由に変更
-- `navigation.md`: ナビゲーションメニューの変更
-- `manifest.json`: 店舗名や「ホームに追加」時のアイコン名
-- `icon_144x144.png`: 「ホームに追加」時のアイコン画像
+- `index.html`: `<title>` タグを店舗名に表示
+- `config.json`: `index.html` のタイトルと同じ店舗名に変える
+- `manifest.json`: `name` と `short_name` を、店舗名と「ホームに追加」時のアイコン表示名に変える
+- `icon_144x144.png`: 「ホームに追加」時のアイコン画像に変える
+- `navigation.md`: タイトル行（`#` 付きの先頭行）を店舗名に変える
 
 ### 参考文献
 
