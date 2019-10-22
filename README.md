@@ -8,6 +8,8 @@ Markdown で店舗案内やメニューの更新ができるサンプルです�
 
 `docs/index.html` の Javascript が、同じ階層にある Markdown ファイルを読み込み、HTML にパースして表示します。
 
+また、ServiceWorker を使い、初回表示で「ホームに追加」が表示されます。
+
 ### Markdown to HTML パーサー
 
 - [MDwiki](http://dynalon.github.io/mdwiki/#!index.md) [v0.6.2](https://github.com/Dynalon/mdwiki/releases/tag/0.6.2) @ GitHub
@@ -18,9 +20,18 @@ Markdown で店舗案内やメニューの更新ができるサンプルです�
   - highlight v7.3
   - MDwiki.js
 
+### 変更が必要なファイル
+
+- `index.html`: `<title>` タグの店舗名
+- `index.md`: Markdown 形式で自由に変更
+- `navigation.md`: ナビゲーションメニューの変更
+- `manifest.json`: 店舗名や「ホームに追加」時のアイコン名
+- `icon_144x144.png`: 「ホームに追加」時のアイコン画像
+
 ### 参考文献
 
-- https://qiita.com/sta/items/a1ee3537ce6e7cfe34a8 @ Qiita
+- [Markdown を HTML ファイル一つで Wiki っぽく見せる MDWiki が便利な件](https://qiita.com/sta/items/a1ee3537ce6e7cfe34a8) @ Qiita
+- [「ホーム画面に追加」からはじめる『PWA(Service Worker)』](https://qiita.com/narikei/items/4240f03542f29e313989) @ Qiita
 
 ## 利用時の注意事項
 
