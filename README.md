@@ -1,4 +1,4 @@
-# peterpan
+# Peter pan
 
 Markdown で店舗案内やメニューの更新ができるサンプルです。`docs/` のディレクトリをご覧ください。
 
@@ -8,7 +8,7 @@ Markdown で店舗案内やメニューの更新ができるサンプルです�
 
 `docs/index.html` の Javascript が、同じ階層にある Markdown ファイルを読み込み、HTML にパースして表示します。
 
-また、ServiceWorker を使い、初回表示で「ホームに追加」が表示されます。
+また、ServiceWorker を使い、「ホームに追加」が表示されます。
 
 ### Markdown to HTML パーサー
 
