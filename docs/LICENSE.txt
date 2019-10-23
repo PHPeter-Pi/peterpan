@@ -5,8 +5,8 @@ additional terms are given below this paragraph.
 Image exceptions
 ----------------
 
-The Logo image in "favicon_144x144.png" is NOT under GNU license.
-It has it's own copyright. Replace it to your own image in use.
+The Logo images in "images" directory are NOT under GNU license.
+They have their own copyright. Replace it to your own image in use.
 
 Linking exceptions
 ------------------
