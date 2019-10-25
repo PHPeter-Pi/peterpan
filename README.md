@@ -1,14 +1,17 @@
 # Peter pan
 
-Markdown で店舗案内やメニューの更新ができるサンプルです。`docs/` のディレクトリをご覧ください。
+Markdown でサイトの更新ができるサンプルです。「ホームに追加」ボタンの実装もされています。
 
-- https://phpeter-pi.github.io/peterpan/
+**SEO（検索エンジン）向けではありません**。常連客などに URL を教えて見てもらうためのものです。本日のメニューや来客状況などに利用します。
+
+- サンプルデータ： [`docs/` ディレクトリ](docs/)
+- 動作サンプル： https://phpeter-pi.github.io/peterpan/
 
 ## 仕組み
 
 `docs/index.html` の Javascript が、同じ階層にある Markdown ファイルを読み込み、HTML にパースして表示します。
 
-また、ServiceWorker を使い、「ホームに追加」が表示されます。
+また、「ホームに追加」ボタンは ServiceWorker 利用しています。
 
 ### Markdown to HTML パーサー
 
